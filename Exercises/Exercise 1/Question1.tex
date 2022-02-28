@@ -15,9 +15,8 @@
         \item[integrity] A communication should keep its integrity.
         This means a communication shall not be altered in any way by a third party.
         A breach of integrity might be altering a message, a sender or a receiver of the message.
-        \item[availability] A communication method should be available.
-        This means a communication method or information retrieval should not be hindered by any third party.
-        Attacks against the availability include Denial of Service Attacks (e.g., DDOS) or Ransomware Attacks.
+        \item[Authenticity] The Authenticity of a communication partner and data must be provided.
+        This means a guarantee, whether my communication partner is actually who he proposes to be is to be achieved.
     \end{description}
 
     \section*{B)  Consider the Following Szenario}
@@ -39,10 +38,10 @@
         To breach integrity, the attacker must be abler to alter any data or communication of the victim.
         Same as before, if the communication and or data is encrypted, integrity is not yet fully breached, but the attacker is one step closer to breaching it.
         A concrete scenario might be an attacker gets access to the database of with patient data via the same vulnerability and alters some data of a given patient.
-        \item[Availability] Now here lies the standart attack of a ransomeware.
-        The availability of the data is breached mostely via encryption.
-        A Ransomeware is deployed on the server via the vulnerability and starts encrypting any data on the system.
-        Only after paying a fee will the victim be able to access his information again (note that in many cases after paying the fee, an attacker will still not give access to the system)
+        \item[Availability] Now here lies the standard attack of a ransomware.
+        The availability of the data is breached mostly via encryption.
+        A ransomware is deployed on the server via the vulnerability and starts encrypting any data on the system.
+        Only after paying a fee will the victim be able to access his information again (note that often after paying the fee, an attacker will still not give access to the system)
 
     \end{description}
 \end{document}
