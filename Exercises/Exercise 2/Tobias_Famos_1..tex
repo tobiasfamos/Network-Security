@@ -1,0 +1,36 @@
+\documentclass[11pt,a4paper]{article}
+
+\title{Network Security \\ ~\\ \Large{Exercises 2 \\Question 1}}
+\author{Tobias Famos\\ 16-933-764}
+
+\begin{document}
+    \maketitle
+    \begin{itemize}
+        \item{Symmetric encryption is a crypto-mechanism where encryption and decryption are performed using different keys.}\\
+        \textbf{True}\\
+        This is true, opposued to asymmetric encryption where the decryption and encryption are done using different keys.
+        \item{With the use of symmetric encryption, the principal security problem is maintaining the secrecy of the key.}\\
+        \textbf{True}\\
+        Maintaining the secrecy of the key is a principal concern of any encryption method, thus also of the symmetric encryption.
+        \item{The process of converting from plaintext to ciphertext is known as deciphering or decryption.}\\
+        \textbf{False}\\
+        By definition the \textbf{de}cryption is turning a cyphertext into plaintext and \textbf{en}cryption is turning a plaintext into a cypthertext. 
+        \item{The algorithm will produce a different output depending on the specific secret key being used at the time.
+        The exact substitutions and transformations performed by the algorithm depend on the key.}\\
+        \textbf{True}\\
+        The exact substitution and transformation depends on the key and algorithm (e.g. which bit or byte will be replaced by which bit or byte or moved where).
+        This is true for all the symmetric encryption algorithms.
+        \item{When using symmetric encryption it is very important to keep the algorithm secret.}\\
+        \textbf{False}\\
+        As in any encryption or security concern it is bad practice ensuring security by obscurity.
+        The encryption should be secure even if the algorithm is known.
+        \item{Ciphertext generated using a computationally secure encryption scheme is impossible for an opponent to decrypt simply because the required information is not there.}
+        \textbf{True}\\
+        A cypther is considered computationally secure, if it is not crackable in a reasonable amount of time.
+        As a cypher can not be decoded without the key this is true.
+        Also the explanation because the information is not there seems reasonable, as the key is the piece to the puzzle that is needed to solve it.
+        There are a few algorithms that are crackable but most of the time this has to do with cryptoanalysis (e.g. based on the distribution of the letters in a text or some other knowledge about the plaintext)
+    \end{itemize}
+
+
+\end{document}
